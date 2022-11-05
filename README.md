@@ -4,8 +4,8 @@ Julia implementation of Cubic Bezier Curves.
 
 ## Features
 * Provides 2 alternative ways of parameterizing cubic bezier curves. Allows for parametrization using either 
-    ** control points or 
-    ** start and end points with corresponding tangents.
+    * control points or 
+    * start and end points with corresponding tangents.
 * Lightweight pure Julia implementation with *no* external package dependencies. Only uses Plots.jl for plotting curves.
 
 ## Installation
