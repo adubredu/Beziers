@@ -1,5 +1,12 @@
 module Beziers
 
-# Write your package code here.
+include("types.jl")
+include("curves.jl")
+include("visualize.jl")
+
+export CubicBezierPts,
+       CubicBezierTgts
+
+export visualize_2D
 
 end
